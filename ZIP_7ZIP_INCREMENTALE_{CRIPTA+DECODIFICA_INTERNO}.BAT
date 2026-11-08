@@ -1,8 +1,8 @@
 @REM  FILE .BAT DI SALVATAGGIO INCREMENTALE CON IL LOG DI CONTROLLO
 
-@REM  cambia questo parametro ---------:    c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF04\
+@REM  cambia questo parametro ---------:    c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\Msys_DF10\
 @REM
-@REM  cambia questo parametro ---------:    _Msys_DF04
+@REM  cambia questo parametro ---------:    _Msys_DF10
 
 
 
@@ -87,9 +87,9 @@
 @ECHO. IMPOSTO I $PARAMETRI SU TUTTO IL FILE e qui possono essere cambiati e
 @ECHO. di seguito puoi cambiare questo percorso path per una sostituzione collettiva:
 @ECHO.
-@ECHO. cambia questo parametro ---------:    c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF04\
+@ECHO. cambia questo parametro ---------:    c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\Msys_DF10\
 @ECHO.
-@ECHO. cambia questo parametro ---------:    _Msys_DF04
+@ECHO. cambia questo parametro ---------:    _Msys_DF10
 @ECHO.
 @ECHO.
 @ECHO.
@@ -98,10 +98,10 @@
 @ECHO.
 @ECHO.                                  effetto sostituzione collettivo
 @ECHO. --------------------------------------------------------------------------------------------------------
-@ECHO. LA PATH DI DESTINAZIONE PER I SALVATAGGI     =  c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF04\%CARTELLA_SALVATAGGI_S%
-@ECHO. LA CARTELLA SALVATAGGI CREATA O ESISTENTE    =  c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF04\AA_SALVATAGGI\
-@ECHO. LA PATH DI PARTENZA                          =  c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF04\
-@ECHO. FILE 7ZIP, RAR DI SALVATAGGIO                =  ZIP_SALVATAGGI_Msys_DF04
+@ECHO. LA PATH DI DESTINAZIONE PER I SALVATAGGI     =  c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\Msys_DF10\%CARTELLA_SALVATAGGI_S%
+@ECHO. LA CARTELLA SALVATAGGI CREATA O ESISTENTE    =  c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\Msys_DF10\AA_SALVATAGGI\
+@ECHO. LA PATH DI PARTENZA                          =  c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\Msys_DF10\
+@ECHO. FILE 7ZIP, RAR DI SALVATAGGIO                =  ZIP_SALVATAGGI_Msys_DF10
 @ECHO. LISTA FILE UTILIZZATA                        =  Zip_N70_ElencoFile.txt
 @ECHO. --------------------------------------------------------------------------------------------------------
 @ECHO.
@@ -111,9 +111,9 @@
 @REM ================================================================================================
 @SET "t=0"
 @SET "CARTELLA_SALVATAGGI_S=AA_SALVATAGGI"
-@SET "PATH_PART_S=c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF04\"
+@SET "PATH_PART_S=c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\Msys_DF10\"
 @SET "PATH_DEST_S=%PATH_PART_S%\%CARTELLA_SALVATAGGI_S%"
-@SET "FILE_S=ZIP_SALVATAGGI_Msys_DF04"
+@SET "FILE_S=ZIP_SALVATAGGI_Msys_DF10"
 @SET "LISTA_FILE_S=Zip_N70_ElencoFile.txt"
 
 @CALL :LOG "PARAMETRI GLOBALI IMPOSTATI:"

@@ -285,7 +285,7 @@ per chiamare dall'esterno la pagina html
          GRUPPO LINK EFFETTUATI:
             01)_DF01
             02)_DF02 *     = correggi la path  ... OK CORRETTA
-            04)_DF04
+            04)_DF10
             05)_DF11
             06)_DF12
             07)_DF13
